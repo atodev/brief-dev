@@ -1,4 +1,5 @@
 # Brief: Democratizing Wall Street Intelligence Through AI
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/f4fc3b7f-f34a-40d2-946e-3854e6d1035e" />
 
 **Tagline**: _Bloomberg for everyone. AI-powered market intelligence at 99% less cost._
 
