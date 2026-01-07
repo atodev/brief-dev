@@ -42,10 +42,11 @@ The script will:
 1. Fetch real market data from CoinGecko
 2. Analyze patterns and identify opportunities
 3. Generate an HTML email report
-4. Save it as `brief_report.html`
-5. Optionally send via email (SMTP)
+4. Save it as `email_output.html`
 
-**Open `brief_report.html` in your web browser to see the report!**
+**Just open `email_output.html` in your web browser to see the report!**
+
+**Note**: Email sending via SMTP is disabled in this demo. In production, Brief automatically sends briefings at 6 AM daily via email service providers (SendGrid, AWS SES). For the demo, viewing the HTML file shows you exactly what users receive.
 
 ## What You'll See
 

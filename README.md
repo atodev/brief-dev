@@ -21,6 +21,7 @@ We believe that access to quality financial information should not be a privileg
 **To become the world's most trusted source of financial intelligence, serving 10 million investors across 100 cities by 2030.**
 
 We envision a future where:
+
 - Every investor starts their day with a personalized Brief at 6 AM
 - Financial decisions are data-driven, not driven by fear or hype
 - Local investors discover opportunities in their own communities

@@ -265,27 +265,9 @@ def main():
     print("🌐 Open this file in your web browser to view the report")
     print("=" * 50)
     print()
-    
-    # Optionally send email
-    send_email_prompt = input("Would you like to send this report via email? (y/n): ").strip().lower()
-    if send_email_prompt == 'y':
-        recipient = input("Enter recipient email address: ").strip()
-        
-        print()
-        print("SMTP Configuration needed:")
-        smtp_host = input("SMTP Host (e.g., smtp.gmail.com): ").strip()
-        smtp_port = input("SMTP Port (e.g., 587): ").strip()
-        smtp_user = input("SMTP Username (your email): ").strip()
-        smtp_pass = input("SMTP Password/App Password: ").strip()
-        
-        smtp_config = {
-            'host': smtp_host,
-            'port': int(smtp_port),
-            'username': smtp_user,
-            'password': smtp_pass
-        }
-        
-        send_email(html_content, recipient, smtp_config)
+    print("💡 Note: Email sending via SMTP is disabled in this demo.")
+    print("   In production, Brief sends emails automatically at 6 AM daily.")
+    print("   For now, just open the HTML file above in your browser!")
     
     print()
     print("Demo complete! 🎉")
