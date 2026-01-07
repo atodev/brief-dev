@@ -5,6 +5,7 @@
 This is a **scaled-down demo** of Brief that generates a daily market intelligence email report with **real market opportunities**.
 
 The demo fetches live data from financial APIs and generates a professional HTML email containing:
+
 - 1 local opportunity (New Zealand stock)
 - 3 global observations (cryptocurrency markets)
 - Market summary
@@ -17,7 +18,7 @@ The demo fetches live data from financial APIs and generates a professional HTML
 ✅ **Risk Analysis**: Each opportunity shows risk level (Low/Medium/High) and potential gains  
 ✅ **Professional Design**: Beautiful HTML email template with responsive design  
 ✅ **Compliance**: All language framed as "observations" not "advice"  
-✅ **No Database**: Simple Python script, no database setup required  
+✅ **No Database**: Simple Python script, no database setup required
 
 ## Quick Start
 
@@ -37,6 +38,7 @@ python demo.py
 ### 3. View the Report
 
 The script will:
+
 1. Fetch real market data from CoinGecko
 2. Analyze patterns and identify opportunities
 3. Generate an HTML email report
@@ -48,6 +50,7 @@ The script will:
 ## What You'll See
 
 ### 📍 Local Opportunity (Auckland, NZ)
+
 - **Fisher & Paykel Healthcare (FPH.NZ)**
 - Real-time price and 24h change
 - Risk level assessment
@@ -55,6 +58,7 @@ The script will:
 - Key data points (earnings, institutional buying, technical indicators)
 
 ### 🌍 Global Observations
+
 - **3 cryptocurrency opportunities** (Bitcoin, Ethereum, etc.)
 - Real-time prices from CoinGecko API
 - Pattern recognition (momentum, pullback, consolidation)
@@ -62,6 +66,7 @@ The script will:
 - Risk levels
 
 ### 📊 Market Summary
+
 - Overall crypto market sentiment
 - NZX 50 status
 - NZD/USD forex rate
@@ -119,6 +124,7 @@ The demo can send the report via email using SMTP:
 ## API Usage
 
 ### CoinGecko API (Free Tier)
+
 - **Rate Limit**: 10-50 calls/minute
 - **No API Key**: Not required for basic usage
 - **Data**: Real-time cryptocurrency prices, market cap, volume
@@ -142,6 +148,7 @@ demo/
 This is a simplified demo. Full Brief will include:
 
 **Not Included in Demo**:
+
 - ❌ Voice briefing
 - ❌ Mobile app
 - ❌ Portfolio tracking
@@ -152,6 +159,7 @@ This is a simplified demo. Full Brief will include:
 - ❌ Broker integrations
 
 **Included in Demo**:
+
 - ✅ Email report generation
 - ✅ Real market data
 - ✅ Opportunity identification
@@ -164,6 +172,7 @@ This is a simplified demo. Full Brief will include:
 ### Add More Data Sources
 
 **Stocks (US)**:
+
 ```python
 # Add Yahoo Finance or Alpha Vantage API
 import yfinance as yf
@@ -172,6 +181,7 @@ price = tesla.info['currentPrice']
 ```
 
 **Forex**:
+
 ```python
 # Add OANDA or Alpha Vantage
 url = "https://api.exchangerate-api.com/v4/latest/NZD"
@@ -180,6 +190,7 @@ nzd_usd = response.json()['rates']['USD']
 ```
 
 **News**:
+
 ```python
 # Add NewsAPI
 url = "https://newsapi.org/v2/everything"
@@ -207,12 +218,14 @@ if USER_CONFIG['risk_tolerance'] == 'conservative':
 ### Schedule Daily Reports
 
 **Windows (Task Scheduler)**:
+
 1. Open Task Scheduler
 2. Create Basic Task
 3. Trigger: Daily at 6:00 AM
 4. Action: Start Program → `python.exe G:\Fin-Advisor\demo\demo.py`
 
 **Linux/Mac (Cron)**:
+
 ```bash
 # Edit crontab
 crontab -e
@@ -224,21 +237,25 @@ crontab -e
 ## Troubleshooting
 
 ### "ModuleNotFoundError: No module named 'requests'"
+
 ```bash
 pip install -r requirements.txt
 ```
 
 ### "Failed to fetch market data"
+
 - Check internet connection
 - CoinGecko API may be rate-limited (wait 1 minute)
 - Try again with `python demo.py`
 
 ### "Email sending failed"
+
 - Verify SMTP credentials
 - Gmail users: Use App Password, not regular password
 - Check firewall/antivirus blocking port 587
 
 ### "HTML looks broken in browser"
+
 - Some email clients strip CSS
 - For best results, open in Chrome/Firefox
 - Or send as email to view in Gmail/Outlook
@@ -256,6 +273,7 @@ After testing the demo:
 ## Cost Estimate (Demo)
 
 **Free Tier**:
+
 - CoinGecko API: Free (10-50 calls/min)
 - Python: Free
 - HTML generation: Free
@@ -266,6 +284,7 @@ After testing the demo:
 ## Production Cost Estimate
 
 For full Brief app (10,000 users):
+
 - Alternative data APIs: $56K/month
 - Cloud infrastructure: $2-9K/month
 - Development team: $50K/month (5 engineers)
@@ -274,6 +293,7 @@ For full Brief app (10,000 users):
 ## Questions?
 
 For questions or feedback:
+
 - Email: [your-email]
 - GitHub: https://github.com/atodev/brief-dev
 

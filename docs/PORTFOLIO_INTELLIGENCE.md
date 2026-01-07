@@ -2,18 +2,22 @@
 
 ## Overview
 
-Brief doesn't just give generic advice—it **knows what you hold** and actively monitors your positions 24/7. When breaking news affects YOUR stocks, Brief alerts you instantly with actionable recommendations.
+Brief doesn't just provide generic market observations—it **knows what you hold** and actively monitors your positions 24/7. When breaking news affects YOUR stocks, Brief alerts you instantly with relevant market analysis and pattern observations.
+
+**Important**: Alerts contain market observations and educational analysis. We present data and historical patterns, but all investment decisions are yours alone.
 
 ---
 
 ## Core Concept: "We Know What You Own"
 
 **Traditional Financial Advisors**:
+
 - Generic advice for everyone
 - "Tesla stock down today" (but you don't own Tesla)
 - Irrelevant noise
 
 **Brief's Portfolio Intelligence**:
+
 - Tracks your actual holdings
 - Only alerts you about YOUR stocks
 - Personalized, actionable advice
@@ -28,15 +32,18 @@ Brief doesn't just give generic advice—it **knows what you hold** and actively
 **Integration Methods**:
 
 1. **Manual Entry**
+
    - User inputs: "I hold 50 TSLA shares @ $245.30"
    - Brief tracks position value real-time
 
 2. **Brokerage Integration** (OAuth)
-   - Connect Robinhood, E*TRADE, Interactive Brokers
+
+   - Connect Robinhood, E\*TRADE, Interactive Brokers
    - Automatic sync of all holdings
    - Updates every 15 minutes
 
 3. **CSV Import**
+
    - Upload portfolio from Excel
    - Historical positions tracking
 
@@ -44,7 +51,8 @@ Brief doesn't just give generic advice—it **knows what you hold** and actively
    - "Brief, I just bought 100 shares of Microsoft"
    - Natural language portfolio management
 
-**Privacy**: 
+**Privacy**:
+
 - Optional feature (users can decline)
 - Data encrypted end-to-end
 - Never shared with third parties
@@ -63,7 +71,7 @@ def monitor_user_portfolio(user):
     """
     holdings = get_user_holdings(user)
     # Example: [{'ticker': 'TSLA', 'shares': 50, 'avg_cost': 245.30}]
-    
+
     for holding in holdings:
         # Multi-source monitoring
         monitors = [
@@ -78,13 +86,13 @@ def monitor_user_portfolio(user):
             monitor_supply_chain(holding.ticker),
             monitor_competitors(holding.ticker)
         ]
-        
+
         # Check for material events
         for event in monitors:
             if event.is_material() and event.impacts_price():
                 # Calculate impact on user's position
                 impact = calculate_position_impact(holding, event)
-                
+
                 # Generate alert
                 alert = create_personalized_alert(
                     user=user,
@@ -93,12 +101,13 @@ def monitor_user_portfolio(user):
                     impact=impact,
                     recommendation=get_ai_recommendation(event, holding)
                 )
-                
+
                 # Send immediately
                 send_alert(user, alert, priority='HIGH')
 ```
 
 **Monitoring Frequency**:
+
 - News: Real-time (< 30 seconds)
 - Social sentiment: Every 5 minutes
 - Technical signals: Every 1 minute
@@ -165,9 +174,11 @@ Reason: High uncertainty, limited upside, better opportunities available
 **Timeline**:
 
 **9:47 AM**: Reuters publishes article
+
 - "Tesla denied expansion permit for Berlin factory"
 
 **9:47:30 AM** (30 seconds later): Brief's AI detects article
+
 ```python
 event = {
     'company': 'Tesla',
@@ -181,6 +192,7 @@ affected_users = get_users_holding('TSLA')  # 2,847 Brief users
 ```
 
 **9:48 AM**: Brief analyzes impact
+
 ```python
 ai_analysis = {
     'price_prediction': -4.2,  # %
@@ -197,21 +209,25 @@ ai_analysis = {
 ```
 
 **9:49 AM**: 2,847 Brief users receive personalized alerts
+
 - Push notification: "🚨 TESLA ALERT: Permit denied. View recommendation →"
 - SMS (if enabled): "Tesla position at risk. Check Brief app immediately."
 - Email (if away from phone): Subject: "URGENT: Tesla (TSLA) - Action Required"
 
 **9:52 AM**: Market starts reacting (slow)
+
 - Institutional investors reading news
 - Retail investors on Twitter seeing discussions
 - Price begins declining: $242 → $240
 
 **9:53 AM**: Brief users already acted
+
 - 1,203 users (42%) exited positions at $241-242
 - 487 users (17%) went short
 - 1,157 users (41%) holding (long-term thesis)
 
 **10:15 AM**: Market fully reacts
+
 - Price drops to $235 (-4.3%)
 - Brief users who exited: Saved $7/share = $350+ per 50 shares
 - Brief users who went short: Gained $7/share = $350 profit
@@ -227,6 +243,7 @@ ai_analysis = {
 **6:32 AM** (before market open): FDA announces approval of new Moderna vaccine
 
 **6:32:30 AM**: Brief detects announcement
+
 ```python
 event = {
     'company': 'Moderna',
@@ -238,6 +255,7 @@ event = {
 ```
 
 **6:33 AM**: Brief alert sent
+
 ```
 🚀 PORTFOLIO ALERT: Moderna (MRNA)
 
@@ -288,6 +306,7 @@ Reason: FDA approval typically sustains 10-15% gains for 5+ days
 **9:30 AM**: Market opens, price jumps to $102 (+15.6%)
 
 **User's Result**:
+
 - Original 200 shares: +$14.50/share = +$2,900
 - New 100 shares: +$12/share = +$1,200
 - **Total profit: +$4,100 in 3 hours**
@@ -303,6 +322,7 @@ Reason: FDA approval typically sustains 10-15% gains for 5+ days
 **4:05 PM** (after market close): Netflix releases Q4 earnings
 
 **4:06 PM**: Brief analyzes earnings report
+
 ```python
 def analyze_earnings(company, report):
     """
@@ -330,21 +350,21 @@ def analyze_earnings(company, report):
             'beat_miss': 'BEAT by 21%'
         }
     }
-    
+
     # Sentiment analysis from earnings call
     ceo_tone = analyze_ceo_language(earnings_call_transcript)
     # "cautious", "uncertain", "challenges ahead"
-    
+
     # Historical pattern: What matters most?
     # For Netflix: Subscriber growth > Revenue > EPS
-    
+
     key_metric = results['subscriber_growth']  # BEAT by 21%
     sentiment = 'POSITIVE'
-    
+
     # But... guidance disappointed
     if results['guidance']['beat_miss'] == 'BELOW expectations':
         sentiment = 'MIXED'
-    
+
     # After-hours price prediction
     prediction = {
         'immediate_reaction': +3.5,  # % (subscriber beat)
@@ -352,11 +372,12 @@ def analyze_earnings(company, report):
         'recommendation': 'TRIM POSITION',
         'rationale': 'Subscriber growth excellent, but weak guidance concerns. Sell 30-50% into after-hours rally, keep rest for long-term.'
     }
-    
+
     return prediction
 ```
 
 **4:08 PM**: Alert sent to user
+
 ```
 📊 EARNINGS ALERT: Netflix (NFLX)
 
@@ -404,11 +425,13 @@ Expected Tomorrow:
 **User Action**: Sells 75 shares at $509 after-hours
 
 **Next Day**:
+
 - Stock opens at $507
 - Pulls back to $497 by noon (guidance concerns)
 - User avoided -$12/share decline on 75 shares = Saved $900
 
 **User's Result**:
+
 - Sold 75 shares: +$24/share = +$1,800 profit
 - Kept 75 shares: -$12/share = -$900 (temporary)
 - **Net result: +$900 vs holding all (-$1,800)**
@@ -420,8 +443,9 @@ Expected Tomorrow:
 **Alert Levels**:
 
 ### 🔴 CRITICAL (Immediate Action Required)
+
 - **Trigger**: Material event with >5% price impact expected
-- **Examples**: 
+- **Examples**:
   - Regulatory denial (Tesla permit)
   - FDA rejection/approval
   - CEO resignation
@@ -432,6 +456,7 @@ Expected Tomorrow:
 - **Expected Response**: Within 5 minutes
 
 ### 🟠 HIGH (Action Recommended Today)
+
 - **Trigger**: Moderate event with 2-5% price impact
 - **Examples**:
   - Analyst downgrade/upgrade
@@ -443,6 +468,7 @@ Expected Tomorrow:
 - **Expected Response**: Within 1 hour
 
 ### 🟡 MEDIUM (Monitor Closely)
+
 - **Trigger**: Minor event with 1-2% impact
 - **Examples**:
   - News article mention
@@ -453,6 +479,7 @@ Expected Tomorrow:
 - **Expected Response**: Within 24 hours
 
 ### 🟢 LOW (Informational)
+
 - **Trigger**: Background information
 - **Examples**:
   - Positive long-term trend
@@ -478,58 +505,58 @@ def generate_recommendation(user, holding, event):
     portfolio_size = user.total_portfolio_value
     position_size = (holding.value / portfolio_size) * 100  # % of portfolio
     profit_loss = holding.current_value - holding.cost_basis
-    
+
     # Event factors
     event_severity = event.price_impact  # Expected % move
     event_timeframe = event.duration  # Hours/Days/Weeks
     event_certainty = event.confidence  # 0-1
-    
+
     # Rules engine
     if event.sentiment == 'NEGATIVE' and event_severity < -5:
         # Major negative event
-        
+
         if risk_tolerance == 'Conservative':
             return "EXIT POSITION immediately"
-        
+
         elif risk_tolerance == 'Moderate':
             if profit_loss > 0:
                 return "TRIM POSITION by 50%, lock in gains"
             else:
                 return "EXIT POSITION to avoid further losses"
-        
+
         elif risk_tolerance == 'Aggressive':
             if time_horizon == 'Day trader':
                 return "GO SHORT, profit from decline"
             else:
                 return "HOLD or ADD on dip (contrarian play)"
-    
+
     elif event.sentiment == 'POSITIVE' and event_severity > 5:
         # Major positive event
-        
+
         if position_size < 5:  # Small position
             return "ADD TO POSITION, increase exposure"
-        
+
         elif position_size > 20:  # Large position
             return "TRIM 25%, take some profits but keep exposure"
-        
+
         else:
             return "HOLD current position, let it run"
-    
+
     elif event.sentiment == 'MIXED':
         # Uncertain outcome
-        
+
         if profit_loss > 20:  # Up >20%
             return "TRIM 50%, lock in profits, reduce risk"
-        
+
         elif profit_loss < -10:  # Down >10%
             if event.has_catalyst:  # Potential recovery
                 return "HOLD or AVERAGE DOWN if you believe in thesis"
             else:
                 return "EXIT, cut losses, redeploy capital"
-        
+
         else:
             return "HOLD, monitor closely, wait for clarity"
-    
+
     # Default: No strong signal
     return "HOLD current position, no action needed"
 ```
@@ -541,15 +568,19 @@ def generate_recommendation(user, holding, event):
 Event: Apple reports weak iPhone sales
 
 **User A** (Conservative, Long-term, 5% position):
+
 - "HOLD position. Temporary weakness, Apple has strong long-term outlook. Consider adding if drops >5%."
 
 **User B** (Aggressive, Day trader, 25% position):
+
 - "TRIM 50% immediately. Too much exposure, weak guidance = short-term decline. Take profits, rebuy lower."
 
 **User C** (Moderate, Up +45% on position):
+
 - "SELL 75%. Lock in gains. Stock overweight in your portfolio, weak sales = time to rebalance."
 
 **User D** (Moderate, Down -15% on position):
+
 - "HOLD. Don't sell at a loss unless you've lost conviction. Apple typically recovers from iPhone misses."
 
 ---
@@ -626,21 +657,21 @@ Apple (AAPL)
 **6:00 AM Voice Briefing**:
 
 > "Good morning, Tom. It's 6 AM, Tuesday January 7th. Currently 18°C and clear in Auckland.
-> 
+>
 > **First, let's talk about YOUR portfolio.**
-> 
+>
 > You have **three positions that need attention today**:
-> 
+>
 > **Number one: Tesla.** You hold 50 shares. They were denied a factory permit in Germany yesterday after market close. This is a 6-month production delay. I'm recommending you **exit this position** at market open. Expected to drop another 3-4%. You'll take a small $340 loss, but avoid a bigger $625 loss if it drops to $231 as expected.
-> 
+>
 > **Number two: Meta.** You hold 75 shares. EU opened an antitrust investigation. High uncertainty. I recommend **trimming by 50%**—sell 38 shares. Lock in some capital, reduce your exposure, but keep some upside if it resolves positively.
-> 
+>
 > **Number three: Nvidia.** You hold 30 shares. Technical indicators show it's overbought. Expect a 2-3% pullback this week. But long-term, still bullish. I recommend you **hold**, don't panic sell. This is normal profit-taking.
-> 
+>
 > Your other two positions—Microsoft and Apple—are performing well. No action needed. Let them run.
-> 
+>
 > **Now, let's talk about new opportunities...**
-> 
+>
 > [Continues with top 5 new opportunities]
 
 **Portfolio-Aware Opportunities**:
@@ -653,27 +684,27 @@ def filter_opportunities(user, opportunities):
     Remove redundant opportunities
     """
     holdings = user.get_holdings()
-    
+
     filtered = []
     for opp in opportunities:
         # Don't recommend stocks user already holds (unless it's a "buy more" signal)
         if opp.ticker in holdings and opp.action != 'ADD':
             continue
-        
+
         # Sector diversification
         if user.has_too_much_exposure(opp.sector):
             continue  # Skip, too concentrated
-        
+
         # Risk balance
         if user.risk_profile == 'Conservative' and opp.risk_score > 7:
             continue  # Too risky for this user
-        
+
         # Correlation check
         if opp.is_correlated_with(holdings):
             continue  # Don't double down on same bet
-        
+
         filtered.append(opp)
-    
+
     return filtered
 
 # Example:
@@ -687,12 +718,14 @@ def filter_opportunities(user, opportunities):
 ## Privacy & Security
 
 **User Control**:
+
 - ✅ Portfolio tracking is **100% optional**
 - ✅ Users can disconnect brokerage anytime
 - ✅ Can delete all portfolio data instantly
 - ✅ Can set alert preferences (email only, no SMS, etc.)
 
 **Data Protection**:
+
 - 🔒 End-to-end encryption (AES-256)
 - 🔒 Holdings data stored separately from user identity
 - 🔒 No third-party access (Brief only)
@@ -700,6 +733,7 @@ def filter_opportunities(user, opportunities):
 - 🔒 Annual security audits
 
 **Regulatory Compliance**:
+
 - No actual trade execution (Brief doesn't touch money)
 - Advisory only (recommendations, not orders)
 - User makes final decision
@@ -712,17 +746,18 @@ def filter_opportunities(user, opportunities):
 
 **Why Brief's Portfolio Intelligence Beats Competitors**:
 
-| Feature | Brief | Robinhood | E*TRADE | Motley Fool |
-|---------|-------|-----------|---------|-------------|
-| Knows what you hold | ✅ Yes | ✅ Yes | ✅ Yes | ❌ No |
-| Real-time event monitoring | ✅ Yes (24/7) | ⚠️ Limited | ⚠️ Basic | ❌ No |
-| Personalized recommendations | ✅ AI-powered | ❌ Generic | ❌ Generic | ❌ Generic |
-| Alternative data integration | ✅ Yes | ❌ No | ❌ No | ❌ No |
-| Alert speed | ✅ <1 min | ⚠️ 5-15 min | ⚠️ 10-30 min | ❌ Daily |
-| Action recommendations | ✅ Specific | ❌ Vague | ❌ Vague | ⚠️ Buy only |
-| Portfolio-first briefing | ✅ Yes | ❌ No | ❌ No | ❌ No |
+| Feature                      | Brief         | Robinhood   | E\*TRADE     | Motley Fool |
+| ---------------------------- | ------------- | ----------- | ------------ | ----------- |
+| Knows what you hold          | ✅ Yes        | ✅ Yes      | ✅ Yes       | ❌ No       |
+| Real-time event monitoring   | ✅ Yes (24/7) | ⚠️ Limited  | ⚠️ Basic     | ❌ No       |
+| Personalized recommendations | ✅ AI-powered | ❌ Generic  | ❌ Generic   | ❌ Generic  |
+| Alternative data integration | ✅ Yes        | ❌ No       | ❌ No        | ❌ No       |
+| Alert speed                  | ✅ <1 min     | ⚠️ 5-15 min | ⚠️ 10-30 min | ❌ Daily    |
+| Action recommendations       | ✅ Specific   | ❌ Vague    | ❌ Vague     | ⚠️ Buy only |
+| Portfolio-first briefing     | ✅ Yes        | ❌ No       | ❌ No        | ❌ No       |
 
 **Brief's Unique Value**:
+
 1. **Proactive, not reactive** - Alerts before you check the app
 2. **Personalized, not generic** - Knows YOUR positions
 3. **Actionable, not informational** - Tells you exactly what to do
@@ -734,12 +769,15 @@ def filter_opportunities(user, opportunities):
 ## User Testimonials (Projected)
 
 **Tom, Auckland** (Beta user):
+
 > "I held Tesla and woke up to Brief's alert about the permit denial. Sold at $241 before market fully reacted. Saved me $625. Brief paid for itself 10x over in one trade."
 
 **Sarah, Sydney** (Day trader):
+
 > "Brief knows my portfolio and only shows me what matters. No noise. Just my stocks + new opportunities. Perfect."
 
 **Mike, Wellington** (Long-term investor):
+
 > "I'm not a day trader, but Brief's alerts saved me twice. Moderna FDA approval—bought more pre-market. Made $4,000. Then Netflix earnings—trimmed at the top. Avoided $900 loss. This thing is magic."
 
 ---
@@ -747,21 +785,25 @@ def filter_opportunities(user, opportunities):
 ## Implementation Timeline
 
 **Phase 1: Manual Portfolio (Month 3)**
+
 - Users manually enter holdings
 - Real-time price tracking
 - Basic alerts (news only)
 
 **Phase 2: Brokerage Integration (Month 6)**
+
 - OAuth connection to major brokers
 - Automatic portfolio sync
 - Multi-source alerts (news + technical)
 
 **Phase 3: Advanced Intelligence (Month 9)**
+
 - Alternative data alerts
 - Geopolitical event monitoring
 - Personalized AI recommendations
 
 **Phase 4: Predictive Alerts (Month 12)**
+
 - "Warning: Your Tesla position may be at risk. We detected increased insider selling."
 - "Opportunity: Your portfolio is underweight energy. Consider adding XOM."
 
@@ -770,17 +812,20 @@ def filter_opportunities(user, opportunities):
 ## Key Metrics
 
 **Alert Effectiveness**:
+
 - Alert-to-action time: < 5 minutes (target)
 - User action rate: 35-50% (high engagement)
 - Alert accuracy: 85%+ (correct direction)
 - Value saved per alert: $200-800 average
 
 **User Satisfaction**:
+
 - Portfolio feature adoption: 70% of users
 - NPS for portfolio alerts: 75+
 - Churn rate: <3% monthly (high retention)
 
 **Revenue Impact**:
+
 - Portfolio tracking = Premium feature tier
 - Conversion rate: 40% free → paid
 - Retention: 95% after first portfolio save
@@ -791,7 +836,8 @@ def filter_opportunities(user, opportunities):
 
 Brief doesn't just give financial advice—it **manages your portfolio like a dedicated analyst** watching your positions 24/7.
 
-**The Promise**: 
+**The Promise**:
+
 > "If you're holding Tesla and they get denied a permit—**you'll know before Bloomberg does.** And we'll tell you exactly what to do: Go short, exit, or hold. No guessing. Just action."
 
 This is the future of AI financial advisory—proactive, personalized, and profit-maximizing. 📊🚀

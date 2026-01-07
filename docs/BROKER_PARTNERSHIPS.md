@@ -9,11 +9,13 @@ Brief doesn't just give investment advice—we **help you take action** by conne
 ## Core Concept: "From Insight to Execution"
 
 **Traditional Financial Advisors**:
+
 - Give advice: "Buy Tesla"
 - User problem: "Where do I buy it? Which broker? How?"
 - Friction → User doesn't act → Advice is worthless
 
 **Brief's Solution**:
+
 - Give advice: "Buy Tesla"
 - Check user location: Auckland, New Zealand
 - Check broker availability: "Tesla available on Hatch, Sharesies, Tiger Brokers"
@@ -32,6 +34,7 @@ Brief doesn't just give investment advice—we **help you take action** by conne
 ### Goal: Cover 95% of World's Investors
 
 **Partnership Criteria**:
+
 1. **Geographic Coverage**: Licensed in target markets
 2. **Asset Class Support**: Stocks, crypto, forex, commodities
 3. **API Access**: Portfolio sync, order placement (future)
@@ -48,6 +51,7 @@ Brief doesn't just give investment advice—we **help you take action** by conne
 #### Tier 1: Full-Service Brokers
 
 **1. Hatch** ⭐ Primary Partner
+
 - **Asset Classes**: US stocks, ETFs
 - **Minimum Deposit**: $0
 - **Fees**: $3 per trade (US stocks), 0.5% FX fee
@@ -58,6 +62,7 @@ Brief doesn't just give investment advice—we **help you take action** by conne
 - **Limitations**: No NZ stocks, no crypto, no forex
 
 **2. Sharesies** ⭐ Alternative
+
 - **Asset Classes**: NZ stocks, AU stocks, US stocks, ETFs
 - **Minimum Deposit**: $0
 - **Fees**: $1.90 flat fee (<$3K order), 0.5% FX
@@ -68,6 +73,7 @@ Brief doesn't just give investment advice—we **help you take action** by conne
 - **Limitations**: Higher fees for large US trades
 
 **3. Tiger Brokers NZ**
+
 - **Asset Classes**: US stocks, AU stocks, HK stocks, Singapore stocks
 - **Minimum Deposit**: NZD $500
 - **Fees**: $1.99 per trade (US stocks)
@@ -78,6 +84,7 @@ Brief doesn't just give investment advice—we **help you take action** by conne
 - **Limitations**: Minimum deposit requirement
 
 **4. ASB Securities** (Traditional Broker)
+
 - **Asset Classes**: NZ stocks, AU stocks, US stocks
 - **Minimum Deposit**: $0
 - **Fees**: $30 per trade (higher)
@@ -88,6 +95,7 @@ Brief doesn't just give investment advice—we **help you take action** by conne
 #### Tier 2: Crypto-Specific
 
 **5. Easy Crypto** ⭐ Crypto Primary
+
 - **Asset Classes**: 100+ cryptocurrencies
 - **Minimum Deposit**: NZD $50
 - **Fees**: 0.5-1% spread
@@ -97,6 +105,7 @@ Brief doesn't just give investment advice—we **help you take action** by conne
 - **Limitations**: Crypto only, no stocks
 
 **6. Binance** (International)
+
 - **Asset Classes**: 350+ cryptocurrencies, futures
 - **Fees**: 0.1% trading fee
 - **KYC Time**: 10 minutes
@@ -107,6 +116,7 @@ Brief doesn't just give investment advice—we **help you take action** by conne
 #### Tier 3: Forex
 
 **7. OANDA** ⭐ Forex Primary
+
 - **Asset Classes**: Forex (120+ pairs), commodities CFDs
 - **Minimum Deposit**: $0
 - **Fees**: Spread-based (tight)
@@ -120,6 +130,7 @@ Brief doesn't just give investment advice—we **help you take action** by conne
 ### 🇦🇺 Australia
 
 **1. Stake** ⭐ Primary Partner
+
 - **Asset Classes**: US stocks, ETFs, ASX stocks
 - **Fees**: $0 brokerage (FX fee 0.7%)
 - **KYC Time**: 5 minutes
@@ -128,6 +139,7 @@ Brief doesn't just give investment advice—we **help you take action** by conne
 - **Availability**: ✅ Australia, ✅ NZ, ✅ UK
 
 **2. Superhero** ⭐ Alternative
+
 - **Asset Classes**: AU stocks, US stocks, ETFs, crypto
 - **Fees**: $5 flat fee (AU/US), 1% crypto
 - **KYC Time**: 5 minutes
@@ -135,12 +147,14 @@ Brief doesn't just give investment advice—we **help you take action** by conne
 - **Why Good**: All-in-one platform
 
 **3. CommSec** (Traditional)
+
 - **Asset Classes**: AU stocks, US stocks, ETFs
 - **Fees**: $19.95 per trade
 - **Why Consider**: Bank-backed, trusted
 - **Limitations**: High fees
 
 **4. Interactive Brokers** (Pro)
+
 - **Asset Classes**: Stocks (135 markets), forex, futures, options
 - **Fees**: $1 per trade (low volume)
 - **KYC Time**: 1-2 days
@@ -153,6 +167,7 @@ Brief doesn't just give investment advice—we **help you take action** by conne
 ### 🇸🇬 Singapore
 
 **1. Tiger Brokers** ⭐ Primary
+
 - **Asset Classes**: US, Singapore, HK, China A-shares
 - **Fees**: $1.99 US stocks, $8 SGX stocks
 - **KYC Time**: 10 minutes
@@ -160,6 +175,7 @@ Brief doesn't just give investment advice—we **help you take action** by conne
 - **Why Best**: Asian markets specialist
 
 **2. moomoo** ⭐ Alternative
+
 - **Asset Classes**: US, Singapore, HK, China
 - **Fees**: $0 commission (first 90 days)
 - **KYC Time**: 5 minutes
@@ -167,6 +183,7 @@ Brief doesn't just give investment advice—we **help you take action** by conne
 - **Why Good**: Free trading period, great app
 
 **3. IBKR Singapore**
+
 - **Asset Classes**: Global (135 markets)
 - **Fees**: $1 per trade
 - **Brief Affiliate Deal**: $200 CPA
@@ -177,6 +194,7 @@ Brief doesn't just give investment advice—we **help you take action** by conne
 ### 🇬🇧 United Kingdom
 
 **1. Trading 212** ⭐ Primary
+
 - **Asset Classes**: UK stocks, US stocks, ETFs
 - **Fees**: £0 commission
 - **KYC Time**: 5 minutes
@@ -184,17 +202,20 @@ Brief doesn't just give investment advice—we **help you take action** by conne
 - **Why Best**: Zero fees, easy to use
 
 **2. Freetrade** ⭐ Alternative
+
 - **Asset Classes**: UK stocks, US stocks
 - **Fees**: £0 basic, £9.99/mo (ISA account)
 - **KYC Time**: 5 minutes
 - **Brief Affiliate Deal**: £30 per referral
 
 **3. Hargreaves Lansdown** (Traditional)
+
 - **Asset Classes**: Stocks, funds, bonds, pensions
 - **Fees**: £11.95 per trade
 - **Why Consider**: Largest UK broker, ISA support
 
 **4. eToro**
+
 - **Asset Classes**: Stocks, crypto, forex, commodities
 - **Fees**: $0 stocks, 1% crypto
 - **KYC Time**: 10 minutes
@@ -207,6 +228,7 @@ Brief doesn't just give investment advice—we **help you take action** by conne
 ### 🇺🇸 United States
 
 **1. Robinhood** ⭐ Primary (Retail)
+
 - **Asset Classes**: US stocks, options, crypto
 - **Fees**: $0 commission
 - **KYC Time**: 5 minutes
@@ -215,6 +237,7 @@ Brief doesn't just give investment advice—we **help you take action** by conne
 - **Limitations**: US market only
 
 **2. Webull** ⭐ Alternative
+
 - **Asset Classes**: US stocks, options, crypto
 - **Fees**: $0 commission
 - **KYC Time**: 5 minutes
@@ -222,6 +245,7 @@ Brief doesn't just give investment advice—we **help you take action** by conne
 - **Why Good**: Better charting than Robinhood
 
 **3. Interactive Brokers** ⭐ Pro/Advanced
+
 - **Asset Classes**: Global stocks, forex, futures, options, bonds
 - **Fees**: $0-1 per trade
 - **Brief Affiliate Deal**: $200 CPA
@@ -229,12 +253,14 @@ Brief doesn't just give investment advice—we **help you take action** by conne
 - **For**: Experienced traders
 
 **4. Coinbase** (Crypto)
+
 - **Asset Classes**: 200+ cryptocurrencies
 - **Fees**: 0.5-1.5% trading fee
 - **Brief Affiliate Deal**: $10 per referral + revenue share
 - **Why Good**: Most trusted US crypto exchange
 
 **5. TD Ameritrade / Charles Schwab**
+
 - **Asset Classes**: Stocks, ETFs, options, futures
 - **Fees**: $0 commission
 - **Why Good**: Research tools, education
@@ -245,6 +271,7 @@ Brief doesn't just give investment advice—we **help you take action** by conne
 ### 🇨🇦 Canada
 
 **1. Wealthsimple Trade** ⭐ Primary
+
 - **Asset Classes**: Canadian stocks, US stocks, crypto
 - **Fees**: $0 commission (CAD stocks), 1.5% FX (US stocks)
 - **KYC Time**: 5 minutes
@@ -252,12 +279,14 @@ Brief doesn't just give investment advice—we **help you take action** by conne
 - **Why Best**: Only zero-fee broker in Canada
 
 **2. Questrade**
+
 - **Asset Classes**: Stocks, ETFs, options, forex
 - **Fees**: $4.95-9.95 per trade
 - **Brief Affiliate Deal**: $50 per funded account
 - **Why Good**: Low-cost ETF purchases ($0)
 
 **3. Interactive Brokers Canada**
+
 - **Asset Classes**: Global markets
 - **Fees**: $1 per trade
 - **Brief Affiliate Deal**: $200 CPA
@@ -267,12 +296,14 @@ Brief doesn't just give investment advice—we **help you take action** by conne
 ### 🇭🇰 Hong Kong
 
 **1. Futu** ⭐ Primary
+
 - **Asset Classes**: HK, US, China A-shares
 - **Fees**: HKD 3 per trade (HK stocks)
 - **KYC Time**: 10 minutes
 - **Brief Affiliate Deal**: HKD 500 per referral
 
 **2. Tiger Brokers HK**
+
 - **Asset Classes**: Multi-market
 - **Fees**: HKD 15 per trade
 - **Brief Affiliate Deal**: HKD 400 per referral
@@ -282,6 +313,7 @@ Brief doesn't just give investment advice—we **help you take action** by conne
 ### 🌍 Global / Multi-Region
 
 **1. Interactive Brokers** ⭐ Professional Choice
+
 - **Available In**: 200+ countries
 - **Asset Classes**: Stocks (135 markets), forex, futures, options, bonds, funds
 - **Fees**: Low ($0-1 per trade for stocks)
@@ -293,6 +325,7 @@ Brief doesn't just give investment advice—we **help you take action** by conne
 - **Limitations**: Complex interface, steep learning curve
 
 **2. eToro**
+
 - **Available In**: 140+ countries (NOT US)
 - **Asset Classes**: Stocks, crypto, forex, commodities
 - **Fees**: $0 stocks, spread on forex/crypto
@@ -303,6 +336,7 @@ Brief doesn't just give investment advice—we **help you take action** by conne
 - **Limitations**: Limited stock selection
 
 **3. IG Group**
+
 - **Available In**: 15 countries (UK, AU, SG, etc.)
 - **Asset Classes**: CFDs, forex, options, stocks
 - **Fees**: Spread-based
@@ -313,20 +347,20 @@ Brief doesn't just give investment advice—we **help you take action** by conne
 
 ## Geographic Availability Matrix
 
-| Broker | NZ | AU | SG | UK | US | CA | HK | Other |
-|--------|----|----|----|----|----|----|----|----|
-| Hatch | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Sharesies | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Stake | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
-| Tiger Brokers | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ Asia |
-| Interactive Brokers | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ 200+ |
-| Robinhood | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
-| Wealthsimple | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ |
-| eToro | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ 140+ |
-| Trading 212 | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ |
-| Easy Crypto | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Binance | ✅ | ⚠️ | ✅ | ⚠️ | ❌ | ❌ | ❌ | ✅ 180+ |
-| OANDA | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ Global |
+| Broker              | NZ  | AU  | SG  | UK  | US  | CA  | HK  | Other     |
+| ------------------- | --- | --- | --- | --- | --- | --- | --- | --------- |
+| Hatch               | ✅  | ❌  | ❌  | ❌  | ❌  | ❌  | ❌  | ❌        |
+| Sharesies           | ✅  | ✅  | ❌  | ❌  | ❌  | ❌  | ❌  | ❌        |
+| Stake               | ✅  | ✅  | ❌  | ✅  | ❌  | ❌  | ❌  | ❌        |
+| Tiger Brokers       | ✅  | ✅  | ✅  | ❌  | ❌  | ❌  | ✅  | ✅ Asia   |
+| Interactive Brokers | ✅  | ✅  | ✅  | ✅  | ✅  | ✅  | ✅  | ✅ 200+   |
+| Robinhood           | ❌  | ❌  | ❌  | ❌  | ✅  | ❌  | ❌  | ❌        |
+| Wealthsimple        | ❌  | ❌  | ❌  | ❌  | ❌  | ✅  | ❌  | ❌        |
+| eToro               | ✅  | ✅  | ✅  | ✅  | ❌  | ❌  | ❌  | ✅ 140+   |
+| Trading 212         | ❌  | ❌  | ❌  | ✅  | ❌  | ❌  | ❌  | ❌        |
+| Easy Crypto         | ✅  | ✅  | ❌  | ❌  | ❌  | ❌  | ❌  | ❌        |
+| Binance             | ✅  | ⚠️  | ✅  | ⚠️  | ❌  | ❌  | ❌  | ✅ 180+   |
+| OANDA               | ✅  | ✅  | ✅  | ✅  | ✅  | ✅  | ✅  | ✅ Global |
 
 ✅ = Available | ❌ = Not Available | ⚠️ = Restricted/Limited
 
@@ -344,16 +378,16 @@ def recommend_broker(user, opportunity):
     user_location = user.country  # "New Zealand"
     asset_class = opportunity.asset_class  # "US Stocks"
     asset_ticker = opportunity.ticker  # "TSLA"
-    
+
     # Get available brokers in user's location
     available_brokers = get_brokers_by_location(user_location)
-    
+
     # Filter by asset class support
     brokers_with_asset = [
-        b for b in available_brokers 
+        b for b in available_brokers
         if asset_class in b.supported_assets
     ]
-    
+
     # Score each broker
     scored_brokers = []
     for broker in brokers_with_asset:
@@ -363,10 +397,10 @@ def recommend_broker(user, opportunity):
             opportunity=opportunity
         )
         scored_brokers.append((broker, score))
-    
+
     # Sort by score (highest first)
     scored_brokers.sort(key=lambda x: x[1], reverse=True)
-    
+
     # Return top 3 recommendations
     return scored_brokers[:3]
 
@@ -376,12 +410,12 @@ def calculate_broker_score(broker, user, opportunity):
     Score broker based on multiple factors
     """
     score = 0
-    
+
     # Fee competitiveness (30% weight)
     trade_cost = broker.calculate_fee(opportunity.expected_investment)
     fee_score = 100 - (trade_cost / opportunity.expected_investment * 100)
     score += fee_score * 0.30
-    
+
     # Setup speed (20% weight)
     kyc_speed = {
         'instant': 100,
@@ -391,22 +425,22 @@ def calculate_broker_score(broker, user, opportunity):
         '3_days': 20
     }
     score += kyc_speed.get(broker.kyc_time, 50) * 0.20
-    
+
     # User experience (20% weight)
     ux_score = broker.app_rating * 20  # 4.5 stars = 90 points
     score += ux_score * 0.20
-    
+
     # Brief affiliate relationship (10% weight)
     if broker.has_affiliate_deal:
         score += 100 * 0.10
-    
+
     # Reputation/trust (10% weight)
     trust_score = (
         broker.years_in_business * 2 +  # 20 years = 40 points
         (100 if broker.is_regulated else 0) * 0.6  # Regulated = 60 points
     )
     score += trust_score * 0.10
-    
+
     # Special features (10% weight)
     features_score = 0
     if broker.supports_fractional_shares and opportunity.price > user.available_capital:
@@ -416,7 +450,7 @@ def calculate_broker_score(broker, user, opportunity):
     if broker.has_research_tools:
         features_score += 20
     score += features_score * 0.10
-    
+
     return score
 
 
@@ -441,6 +475,7 @@ recommendations = recommend_broker(user, opportunity)
 ### Scenario: New User in Auckland
 
 **Step 1: Brief Gives Recommendation**
+
 ```
 🚀 OPPORTUNITY: Tesla (TSLA)
 
@@ -454,6 +489,7 @@ Timeframe: 2 weeks
 **Step 2: User Clicks "Interested"**
 
 **Step 3: Brief Checks User Setup**
+
 ```python
 def check_user_trading_readiness(user, opportunity):
     """
@@ -465,14 +501,14 @@ def check_user_trading_readiness(user, opportunity):
         'has_kyc_completed': False,
         'has_sufficient_funds': False
     }
-    
+
     if checks['has_broker_account']:
         for broker in user.linked_brokers:
             if opportunity.asset_class in broker.supported_assets:
                 checks['broker_supports_asset'] = True
                 checks['has_kyc_completed'] = broker.kyc_status == 'approved'
                 checks['has_sufficient_funds'] = broker.available_cash >= opportunity.min_investment
-    
+
     return checks
 
 # User is new, no broker account
@@ -485,6 +521,7 @@ checks = {
 ```
 
 **Step 4: Brief Recommends Broker**
+
 ```
 To invest in Tesla (US stock), you'll need a broker account.
 
@@ -520,6 +557,7 @@ Tiger Brokers - $1.99 fee, but $500 minimum deposit
 **Step 6: Brief Guides KYC Process**
 
 **Modal in Brief App**:
+
 ```
 Setting up Hatch Account
 
@@ -537,6 +575,7 @@ Time required: 5-7 minutes
 **Step 7: Hand-off to Hatch (Affiliate Link)**
 
 Brief opens Hatch signup with pre-filled data:
+
 - Name, email, phone (from Brief profile)
 - Referral code: BRIEF25 ($25 bonus)
 - Return URL: brief://broker-connected
@@ -544,6 +583,7 @@ Brief opens Hatch signup with pre-filled data:
 **Step 8: User Completes KYC at Hatch**
 
 Hatch's process:
+
 1. Verify email
 2. Upload ID
 3. Verify address
@@ -556,6 +596,7 @@ Time: 5 minutes
 **Step 9: Hatch Approves Account**
 
 Hatch sends webhook to Brief:
+
 ```json
 {
   "event": "account_approved",
@@ -568,6 +609,7 @@ Hatch sends webhook to Brief:
 ```
 
 **Step 10: Brief Welcomes User Back**
+
 ```
 🎉 Hatch Account Approved!
 
@@ -584,6 +626,7 @@ Want to deposit now?
 ```
 
 **Step 11: Link Hatch to Brief (Portfolio Tracking)**
+
 ```
 Connect Hatch to Brief?
 
@@ -599,11 +642,13 @@ Benefits:
 **Step 12: OAuth Connection**
 
 If user clicks "Connect Now":
+
 - OAuth flow to Hatch API
 - User authorizes Brief to read portfolio (not execute trades)
 - Brief syncs holdings every 15 minutes
 
 **Step 13: Ready to Invest**
+
 ```
 ✅ Setup Complete!
 
@@ -671,7 +716,7 @@ def track_kyc_progress(user, broker):
     Monitor KYC completion and send reminders
     """
     kyc_status = broker.get_kyc_status(user)
-    
+
     statuses = {
         'not_started': {
             'message': 'You started setting up {broker} but didn't complete KYC. Finish now (5 min)?',
@@ -704,7 +749,7 @@ def track_kyc_progress(user, broker):
             'urgency': 'HIGH'
         }
     }
-    
+
     return statuses.get(kyc_status, None)
 
 # Send reminders:
@@ -748,6 +793,7 @@ Sharesies accepts wider range of address documents
 **Scenario**: User in Manila requests to buy Tesla
 
 **Brief's Response**:
+
 ```
 📍 You're in: Manila, Philippines
 
@@ -763,7 +809,7 @@ Unfortunately, Hatch, Stake, and Robinhood are not available in the Philippines.
    ✅ Fees: $1 per trade
    ⚠️ Minimum: $0 (but $10K for best rates)
    ⚠️ Setup time: 1-2 days (thorough KYC)
-   
+
    Best for: Experienced investors, larger accounts
 
 2. Tiger Brokers Philippines
@@ -771,7 +817,7 @@ Unfortunately, Hatch, Stake, and Robinhood are not available in the Philippines.
    ✅ US stocks, Singapore, HK
    ✅ Fees: $1.99 per trade
    ⚠️ Minimum: $500 PHP
-   
+
    Best for: Beginners, smaller accounts
 
 3. eToro
@@ -779,7 +825,7 @@ Unfortunately, Hatch, Stake, and Robinhood are not available in the Philippines.
    ✅ US stocks, crypto, forex
    ✅ Fees: $0 stocks (spread-based)
    ⚠️ Limited stock selection
-   
+
    Best for: Social trading features
 
 💡 Brief Recommends:
@@ -797,35 +843,39 @@ Unfortunately, Hatch, Stake, and Robinhood are not available in the Philippines.
 
 **Typical Affiliate Deals**:
 
-| Broker | Model | Payment | LTV Potential |
-|--------|-------|---------|---------------|
-| Hatch | CPA (Cost Per Acquisition) | $25 per signup | $25 one-time |
-| Stake | CPA | $30 per funded account | $30 one-time |
-| Tiger Brokers | CPA | $50 per funded account | $50 one-time |
-| Interactive Brokers | CPA | $200 per funded account >$10K | $200 one-time |
-| Binance | Revenue Share | 20% of trading fees | $50-500/year per user |
-| OANDA | CPA + Revenue Share | $400 CPA + 10% spread | $400 + $100-300/year |
-| eToro | CPA (tiered) | $200-600 based on deposit | $200-600 one-time |
-| Easy Crypto | CPA | $15 per signup | $15 one-time |
+| Broker              | Model                      | Payment                       | LTV Potential         |
+| ------------------- | -------------------------- | ----------------------------- | --------------------- |
+| Hatch               | CPA (Cost Per Acquisition) | $25 per signup                | $25 one-time          |
+| Stake               | CPA                        | $30 per funded account        | $30 one-time          |
+| Tiger Brokers       | CPA                        | $50 per funded account        | $50 one-time          |
+| Interactive Brokers | CPA                        | $200 per funded account >$10K | $200 one-time         |
+| Binance             | Revenue Share              | 20% of trading fees           | $50-500/year per user |
+| OANDA               | CPA + Revenue Share        | $400 CPA + 10% spread         | $400 + $100-300/year  |
+| eToro               | CPA (tiered)               | $200-600 based on deposit     | $200-600 one-time     |
+| Easy Crypto         | CPA                        | $15 per signup                | $15 one-time          |
 
 **Revenue Projections**:
 
 **Year 1** (10,000 users):
+
 - 60% connect broker (6,000 users)
 - Average commission: $50
 - **Revenue: $300,000**
 
 **Year 2** (50,000 users):
+
 - 70% connect broker (35,000 users)
 - Average commission: $60 (better deals at scale)
 - **Revenue: $2,100,000**
 
 **Year 3** (200,000 users):
+
 - 75% connect broker (150,000 users)
 - Average commission: $75 (volume discounts)
 - **Revenue: $11,250,000**
 
 **Additional Revenue** (Revenue share from active traders):
+
 - Binance: 20% of fees
 - If 10,000 crypto users trade avg $100/month in fees
 - Brief earns: $20/user/month × 10,000 = $200K/month = $2.4M/year
@@ -839,27 +889,32 @@ Unfortunately, Hatch, Stake, and Robinhood are not available in the Philippines.
 ### Approach for CEO/CFO
 
 **Phase 1: Start with Easy Wins** (Months 1-6)
+
 - Sign up for public affiliate programs (Hatch, Stake, Easy Crypto)
 - No negotiation needed
 - Prove concept, track conversions
 
 **Phase 2: Negotiate Better Deals** (Months 6-12)
+
 - Approach brokers with data: "We sent you 500 users, let's talk exclusive deal"
 - Negotiate higher CPA: $50 → $75
 - Request co-marketing: "Feature Brief in your app, we feature you in ours"
 
 **Phase 3: Exclusive Partnerships** (Year 2)
+
 - Lock in exclusive deals with 2-3 brokers per region
 - Higher commissions ($100-200 CPA)
 - White-label integrations: "Execute trades within Brief app"
 - Data sharing: Brokers share anonymized trading data → Improve Brief AI
 
 **Phase 4: Revenue Share Agreements** (Year 3)
+
 - Move from CPA to revenue share (10-20% of trading fees)
 - Aligns incentives: Brief wants active traders, not just signups
 - Lifetime value: One user = $500-2,000 over 5 years
 
 **Phase 5: Acquisition Targets** (Year 5)
+
 - Buy small brokers in key markets
 - Own the entire value chain
 - Example: Acquire NZ-based broker for $5-10M → Full margin capture
@@ -914,28 +969,35 @@ CEO, Brief
 ### If Recommended Broker Unavailable
 
 **NZ Users**:
+
 - Primary: Hatch → Backup: Sharesies → Backup: Tiger Brokers
 
 **AU Users**:
+
 - Primary: Stake → Backup: Superhero → Backup: CommSec
 
 **SG Users**:
+
 - Primary: Tiger Brokers → Backup: moomoo → Backup: IBKR
 
 **UK Users**:
+
 - Primary: Trading 212 → Backup: Freetrade → Backup: eToro
 
 **US Users**:
+
 - Primary: Robinhood → Backup: Webull → Backup: Fidelity
 
 **Global / Unsupported Countries**:
+
 - Primary: Interactive Brokers → Backup: eToro → Backup: Local broker
 
 ---
 
 ## Compliance Considerations
 
-**Brief's Role**: 
+**Brief's Role**:
+
 - ✅ Educational content and broker recommendations
 - ✅ Affiliate referrals to licensed brokers
 - ❌ NOT executing trades (brokers do that)
@@ -943,16 +1005,19 @@ CEO, Brief
 - ❌ NOT a broker-dealer
 
 **Disclaimers**:
+
 - "Brief is not a broker. We recommend licensed brokers for execution."
 - "Brief receives affiliate commissions from broker partners."
 - "You are free to use any broker of your choice."
 - "Past performance does not guarantee future results."
 
 **Regulatory Licenses Required**:
+
 - Investment Advisor (RIA in US, AFS License in AU, FMA in NZ)
 - NOT broker-dealer license (we don't execute trades)
 
 **Reduced Compliance Burden**:
+
 - By not executing trades, Brief avoids:
   - Broker-dealer licensing (expensive, complex)
   - Custody of customer funds (high liability)
@@ -964,31 +1029,37 @@ CEO, Brief
 ## Implementation Timeline
 
 **Month 3** (MVP):
+
 - Manual broker recommendations (Brief suggests, user goes to broker website)
 - 3 broker affiliate partnerships (Hatch, Easy Crypto, OANDA)
 
 **Month 6**:
+
 - Automated broker recommendations based on location
 - 10 broker partnerships
 - KYC progress tracking
 - In-app broker signup links (affiliate links)
 
 **Month 9**:
+
 - Broker account linking (OAuth, portfolio sync)
 - 20 broker partnerships
 - Revenue share agreements with 3-5 brokers
 
 **Month 12**:
+
 - Advanced features: "Fund and trade" buttons in Brief app (deeplink to broker app)
 - 30+ broker partnerships globally
 - $1M+ annual affiliate revenue
 
 **Year 2**:
+
 - White-label integration: Execute trades within Brief app (via broker APIs)
 - Negotiate exclusive deals
 - $5M+ annual affiliate revenue
 
 **Year 3**:
+
 - Consider acquiring small broker for owned infrastructure
 - $13M+ annual affiliate revenue
 
@@ -997,18 +1068,22 @@ CEO, Brief
 ## Success Metrics
 
 **Broker Conversion Rate**:
+
 - Target: 60-75% of users connect a broker account
 - Benchmark: If 10,000 users, 6,000-7,500 should have brokerage accounts
 
 **Affiliate Revenue Per User**:
+
 - Target: $50-75 average commission per connected user
 - Year 1: $50, Year 2: $60, Year 3: $75+
 
 **User Satisfaction**:
+
 - "Easy to set up broker account": 85%+ satisfaction
 - "Brief helped me choose the right broker": 90%+ satisfaction
 
 **Time to First Trade**:
+
 - Target: Users go from recommendation → broker signup → first trade in <7 days
 - Stretch goal: <3 days
 
