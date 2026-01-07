@@ -39,14 +39,24 @@ python demo.py
 
 The script will:
 
-1. Fetch real market data from CoinGecko
-2. Analyze patterns and identify opportunities
-3. Generate an HTML email report
+1. Ask for your email address (just to simulate signup - we won't actually send)
+2. Fetch real market data from CoinGecko
+3. Generate your personalized briefing
 4. Save it as `email_output.html`
+5. Show you what Brief sends in production
 
-**Just open `email_output.html` in your web browser to see the report!**
+**Just open `email_output.html` in your web browser to see your briefing!**
 
-**Note**: Email sending via SMTP is disabled in this demo. In production, Brief automatically sends briefings at 6 AM daily via email service providers (SendGrid, AWS SES). For the demo, viewing the HTML file shows you exactly what users receive.
+### How It Works in Production
+
+When you sign up for Brief:
+- ✅ **You provide**: Just your email (e.g., `tom@gmail.com`)
+- ✅ **Brief sends FROM**: `noreply@brief.ai`
+- ✅ **Brief sends TO**: Your email address
+- ✅ **When**: Every day at 6:00 AM (before markets open)
+- ✅ **How**: Using SendGrid or AWS SES (professional email services)
+
+**No passwords needed from you!** Just like any newsletter or service you've signed up for.
 
 ## What You'll See
 
@@ -102,25 +112,6 @@ USER_CONFIG = {
     'timezone': 'Pacific/Auckland'
 }
 ```
-
-## Sending Email (Optional)
-
-The demo can send the report via email using SMTP:
-
-1. Run the demo: `python demo.py`
-2. When prompted, choose `y` to send email
-3. Enter recipient email address
-4. Provide SMTP credentials:
-   - **Gmail**: Use `smtp.gmail.com` port `587` with App Password
-   - **Outlook**: Use `smtp.office365.com` port `587`
-   - **Other**: Check your email provider's SMTP settings
-
-### Gmail Setup (Recommended for Testing)
-
-1. Go to Google Account → Security
-2. Enable 2-Factor Authentication
-3. Generate "App Password" for Mail
-4. Use this password in the demo (not your regular Gmail password)
 
 ## API Usage
 

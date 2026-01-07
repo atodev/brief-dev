@@ -244,8 +244,23 @@ def send_email(html_content, recipient_email, smtp_config=None):
 def main():
     """Main demo function"""
     print("=" * 50)
-    print("📊 Brief Demo - Email Report Generator")
+    print("📊 Brief Demo - Daily Intelligence Report")
     print("=" * 50)
+    print()
+    print("This demo shows what Brief sends to users every morning at 6 AM.")
+    print()
+    
+    # Ask for user's email (just to simulate signup)
+    user_email = input("Enter your email address (just for demo, we won't actually send): ").strip()
+    if not user_email:
+        user_email = "demo@example.com"
+    
+    print()
+    print(f"✅ Great! In production, you'd receive this briefing at 6:00 AM daily.")
+    print(f"📧 Sent FROM: noreply@brief.ai")
+    print(f"📧 Sent TO: {user_email}")
+    print()
+    print("🔄 Generating your personalized briefing with live market data...")
     print()
     
     # Generate report
@@ -262,13 +277,14 @@ def main():
     print(f"✅ Report generated successfully!")
     print(f"📄 Saved to: {output_path}")
     print()
-    print("🌐 Open this file in your web browser to view the report")
+    print("🌐 Open this file in your web browser to see what you'd receive")
     print("=" * 50)
     print()
-    print("💡 Note: Email sending via SMTP is disabled in this demo.")
-    print("   In production, Brief sends emails automatically at 6 AM daily.")
-    print("   For now, just open the HTML file above in your browser!")
-    
+    print("💡 How Brief works in production:")
+    print(f"   • You sign up with: {user_email}")
+    print("   • Every day at 6:00 AM, Brief generates a fresh briefing")
+    print("   • Sent via SendGrid/AWS SES (no passwords needed from you!)")
+    print("   • You wake up, check email, make better investment decisions")
     print()
     print("Demo complete! 🎉")
 
