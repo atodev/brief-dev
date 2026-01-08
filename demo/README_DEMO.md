@@ -50,6 +50,7 @@ The script will:
 ### How It Works in Production
 
 When you sign up for Brief:
+
 - ✅ **You provide**: Just your email (e.g., `tom@gmail.com`)
 - ✅ **Brief sends FROM**: `noreply@brief.ai`
 - ✅ **Brief sends TO**: Your email address
